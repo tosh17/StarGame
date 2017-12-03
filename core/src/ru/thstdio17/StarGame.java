@@ -2,6 +2,7 @@ package ru.thstdio17;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Graphics;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -26,6 +27,7 @@ public class StarGame extends ApplicationAdapter {
         h -= img1.getHeight();
         w -= img1.getWidth();
         r=new Random();
+
     }
 
     @Override
