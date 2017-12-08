@@ -83,13 +83,19 @@ project(":html") {
 project(":core") {
     apply plugin: "java"
 
-
     dependencies {
         compile "com.badlogicgames.gdx:gdx:$gdxVersion"
         
     }
 }
+project(":engine") {
+    apply plugin: "java"
 
+    dependencies {
+        compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+
+    }
+}
 tasks.eclipse.doLast {
     delete ".project"
 }

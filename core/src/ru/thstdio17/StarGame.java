@@ -27,7 +27,6 @@ public class StarGame extends ApplicationAdapter {
         h -= img1.getHeight();
         w -= img1.getWidth();
         r=new Random();
-
     }
 
     @Override
